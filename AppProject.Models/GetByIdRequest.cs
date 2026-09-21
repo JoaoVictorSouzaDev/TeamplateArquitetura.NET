@@ -2,7 +2,7 @@ using System;
 
 namespace AppProject.Models;
 
-public class GetByIdRequest
+public class GetByIdRequest<TIdType> : IRequest
 {
-
+    required public TIdType ID { get; set; }
 }
