@@ -1,0 +1,144 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "AppProject.Core.Infra.AI/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Contracs": "1.0.0",
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Core.Models.General": "1.0.0",
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Infra.AI.dll": {}
+        }
+      },
+      "AppProject.Core.Contracs/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Contracs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Models/1.0.0": {
+        "dependencies": {
+          "AppProject.Exceptions": "1.0.0",
+          "AppProject.Models": "1.0.0",
+          "AppProject.Resources": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Core.Models.General/1.0.0": {
+        "dependencies": {
+          "AppProject.Core.Models": "1.0.0",
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Core.Models.General.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Exceptions/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Exceptions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Models/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Resources/1.0.0": {
+        "dependencies": {
+          "AppProject.Utils": "1.0.0"
+        },
+        "runtime": {
+          "AppProject.Resources.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppProject.Utils/1.0.0": {
+        "runtime": {
+          "AppProject.Utils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AppProject.Core.Infra.AI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Contracs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Core.Models.General/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Resources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppProject.Utils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

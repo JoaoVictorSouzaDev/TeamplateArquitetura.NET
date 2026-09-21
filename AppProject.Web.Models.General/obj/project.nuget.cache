@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XUt7wUvLsbU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saojvict\\Documents\\Cursos\\Udemy\\TeamplateArquitetura.NET\\AppProject.Web.Models.General\\AppProject.Web.Models.General.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saojvict\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\saojvict\\Documents\\Cursos\\Udemy\\TeamplateArquitetura.NET\\AppProject.Web.General\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0\\staticwebassets\\msbuild.AppProject.Web.General.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0\\staticwebassets\\msbuild.AppProject.Web.General.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0\\staticwebassets\\msbuild.build.AppProject.Web.General.props",
+      "PackagePath": "build\\AppProject.Web.General.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0\\staticwebassets\\msbuild.buildMultiTargeting.AppProject.Web.General.props",
+      "PackagePath": "buildMultiTargeting\\AppProject.Web.General.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0\\staticwebassets\\msbuild.buildTransitive.AppProject.Web.General.props",
+      "PackagePath": "buildTransitive\\AppProject.Web.General.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

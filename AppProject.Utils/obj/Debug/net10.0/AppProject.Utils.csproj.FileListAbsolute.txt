@@ -1,0 +1,12 @@
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Utils\bin\Debug\net10.0\AppProject.Utils.deps.json
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Utils\bin\Debug\net10.0\AppProject.Utils.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Utils\bin\Debug\net10.0\AppProject.Utils.pdb
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Utils\obj\Debug\net10.0\AppProject.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Utils\obj\Debug\net10.0\AppProject.Utils.AssemblyInfoInputs.cache
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Utils\obj\Debug\net10.0\AppProject.Utils.AssemblyInfo.cs
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Utils\obj\Debug\net10.0\AppProject.Utils.csproj.CoreCompileInputs.cache
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Utils\obj\Debug\net10.0\AppProject.Utils.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Utils\obj\Debug\net10.0\refint\AppProject.Utils.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Utils\obj\Debug\net10.0\AppProject.Utils.pdb
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Utils\obj\Debug\net10.0\ref\AppProject.Utils.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Utils\bin\Debug\net10.0\.xml

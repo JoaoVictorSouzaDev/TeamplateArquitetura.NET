@@ -1,0 +1,16 @@
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\bin\Debug\net10.0\AppProject.Exceptions.deps.json
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\bin\Debug\net10.0\AppProject.Exceptions.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\bin\Debug\net10.0\AppProject.Exceptions.pdb
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\obj\Debug\net10.0\AppProject.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\obj\Debug\net10.0\AppProject.Exceptions.AssemblyInfoInputs.cache
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\obj\Debug\net10.0\AppProject.Exceptions.AssemblyInfo.cs
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\obj\Debug\net10.0\AppProject.Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\obj\Debug\net10.0\AppProject.Exceptions.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\obj\Debug\net10.0\refint\AppProject.Exceptions.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\obj\Debug\net10.0\AppProject.Exceptions.pdb
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\obj\Debug\net10.0\ref\AppProject.Exceptions.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\bin\Debug\net10.0\.xml
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\bin\Debug\net10.0\AppProject.Utils.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\bin\Debug\net10.0\AppProject.Utils.pdb
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\obj\Debug\net10.0\AppProject.Exceptions.csproj.AssemblyReference.cache
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\obj\Debug\net10.0\AppProje.E23EDA2A.Up2Date
