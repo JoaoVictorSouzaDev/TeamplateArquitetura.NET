@@ -24,3 +24,4 @@ C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Cor
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Models.General\obj\Debug\net10.0\AppProje.F03481E2.Up2Date
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Models.General\bin\Debug\net10.0\es-ES\AppProject.Resources.resources.dll
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Models.General\bin\Debug\net10.0\pt-BR\AppProject.Resources.resources.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Models.General\obj\Debug\net10.0\AppProject.Core.Models.General.sourcelink.json

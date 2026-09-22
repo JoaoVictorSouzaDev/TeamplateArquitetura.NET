@@ -14,3 +14,4 @@ C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Mod
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Models\bin\Debug\net10.0\AppProject.Utils.pdb
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Models\obj\Debug\net10.0\AppProject.Models.csproj.AssemblyReference.cache
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Models\obj\Debug\net10.0\AppProje.8EE8FD09.Up2Date
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Models\obj\Debug\net10.0\AppProject.Models.sourcelink.json

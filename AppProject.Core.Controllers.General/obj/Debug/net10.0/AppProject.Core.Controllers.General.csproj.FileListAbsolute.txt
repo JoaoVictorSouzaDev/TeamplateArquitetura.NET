@@ -40,3 +40,4 @@ C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Cor
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Controllers.General\obj\Debug\net10.0\AppProje.76A2DC33.Up2Date
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Controllers.General\bin\Debug\net10.0\es-ES\AppProject.Resources.resources.dll
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Controllers.General\bin\Debug\net10.0\pt-BR\AppProject.Resources.resources.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Controllers.General\obj\Debug\net10.0\AppProject.Core.Controllers.General.sourcelink.json

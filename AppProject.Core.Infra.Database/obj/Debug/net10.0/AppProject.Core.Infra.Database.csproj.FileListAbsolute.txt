@@ -28,3 +28,4 @@ C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Cor
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Infra.Database\obj\Debug\net10.0\AppProje.FE8E7388.Up2Date
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Infra.Database\bin\Debug\net10.0\es-ES\AppProject.Resources.resources.dll
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Infra.Database\bin\Debug\net10.0\pt-BR\AppProject.Resources.resources.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Infra.Database\obj\Debug\net10.0\AppProject.Core.Infra.Database.sourcelink.json

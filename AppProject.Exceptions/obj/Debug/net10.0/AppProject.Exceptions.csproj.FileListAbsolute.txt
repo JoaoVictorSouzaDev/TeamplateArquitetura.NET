@@ -14,3 +14,4 @@ C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exc
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\bin\Debug\net10.0\AppProject.Utils.pdb
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\obj\Debug\net10.0\AppProject.Exceptions.csproj.AssemblyReference.cache
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\obj\Debug\net10.0\AppProje.E23EDA2A.Up2Date
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Exceptions\obj\Debug\net10.0\AppProject.Exceptions.sourcelink.json

@@ -25,3 +25,4 @@ C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Res
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Resources\obj\Debug\net10.0\es-ES\AppProject.Resources.resources.dll
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Resources\obj\Debug\net10.0\pt-BR\AppProject.Resources.resources.cs
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Resources\obj\Debug\net10.0\pt-BR\AppProject.Resources.resources.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Resources\obj\Debug\net10.0\AppProject.Resources.sourcelink.json

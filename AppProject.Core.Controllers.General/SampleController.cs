@@ -1,6 +1,5 @@
 #if DEBUG
 using AppProject.Resources;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppProject.Core.Controllers.General
