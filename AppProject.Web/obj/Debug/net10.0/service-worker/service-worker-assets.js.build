@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "n+s2+Jum",
+  "version": "jVRsyZug",
   "assets": [
     {
       "hash": "sha256-ijCH3joi2nmkO/T5VQ/KWDm1e2oKYLoELSvUgBuBOaY=",
@@ -18,100 +18,100 @@ self.assetsManifest = {
       "url": "_content/AppProject.Web.Shared/background.png"
     },
     {
-      "hash": "sha256-PolpqTk/TdobrI9r1CVMm2Hy6wplwMi7xSrGsjFQV7M=",
-      "url": "_framework/AppProject.Exceptions.iz8j9fl9lx.pdb"
+      "hash": "sha256-317gjHeFP5jrH/SNZht9wdaGOarf5TOFcyk8eXGjMb4=",
+      "url": "_framework/AppProject.Exceptions.1451xgxfcl.wasm"
     },
     {
-      "hash": "sha256-4hE2N2sEkStZuIPVVUzWfzvEN+VnjStJT8r9zqKg+5w=",
-      "url": "_framework/AppProject.Exceptions.qy0wti4xab.wasm"
+      "hash": "sha256-L6z8dEaSNGMCw/mlymO91kAy1jEmbIG0Ti3hseTWkP8=",
+      "url": "_framework/AppProject.Exceptions.n2lyp95l1z.pdb"
     },
     {
-      "hash": "sha256-t1c1M8YoHf7KPyU7YXtKDHWWXP3bKXa046Xb40EM/tA=",
-      "url": "_framework/AppProject.Models.h6mw8a0spt.wasm"
+      "hash": "sha256-LHF2vcEquK4V0+yK9I7a8uxxVxd1kkNd407ourJZCaA=",
+      "url": "_framework/AppProject.Models.4ackeyqfen.wasm"
     },
     {
-      "hash": "sha256-VLTC8PsOpdpgKaJ98ZaiLGbkX6pDn/PtjO5k1wBgyaA=",
-      "url": "_framework/AppProject.Models.kgw8q9onxk.pdb"
+      "hash": "sha256-TlEMaX8pNMirKYCLo4v/pXDhidCkUKrLtYGYJpT2W5g=",
+      "url": "_framework/AppProject.Models.mrhbspyz9e.pdb"
     },
     {
-      "hash": "sha256-FI+e83CohB23bZf+VlnCGRYS9pWxmVrwdRfF42S7yH0=",
-      "url": "_framework/AppProject.Resources.sc2sqjjzoo.wasm"
+      "hash": "sha256-8k2tn6WJB3ivm39Ir3zTKXn/FIRKlHVHUorO8O6TkiA=",
+      "url": "_framework/AppProject.Resources.6e10vz03hy.pdb"
     },
     {
-      "hash": "sha256-JsVAlbQ8rjNaXzsaAnDmPYs1uTAiKa+P/zg667cW00I=",
-      "url": "_framework/AppProject.Resources.y1m6kzpmdm.pdb"
+      "hash": "sha256-t81MhyMKrG//SjhZKxVqnjLFBwRb1o/vmM+fRmuBjio=",
+      "url": "_framework/AppProject.Resources.djhaf3u6uh.wasm"
     },
     {
-      "hash": "sha256-nTHYL9fpj1AQn+c8LL5VjDadjqdbKqlF7xwIp6J5YDw=",
-      "url": "_framework/AppProject.Utils.1jzb5pw6yz.wasm"
+      "hash": "sha256-Cfm/FDKwSwze3RSPGPTf45Fzq9LGtTENyR5Kt6GlE/I=",
+      "url": "_framework/AppProject.Utils.b7bdhvct3x.wasm"
     },
     {
-      "hash": "sha256-a1ZeXCcpvwyifPrJONzeHNhgAOpsBCch8b7Xb4BfYSc=",
-      "url": "_framework/AppProject.Utils.hpk75w6dse.pdb"
+      "hash": "sha256-Cr9E2DJY5rPqsA1NYuAf8Y09g3MA1C/sajG7UGriAL8=",
+      "url": "_framework/AppProject.Utils.ms7mo292b0.pdb"
     },
     {
-      "hash": "sha256-v5f8izg9h6i1l3GWkN/YuKX0WojXoXgX1YxULG+cSvk=",
-      "url": "_framework/AppProject.Web.ApiClient.5rn4rfwuzr.wasm"
+      "hash": "sha256-V0bNvNv8sXfIFn3V6gDLLCmZIgxTK7//ScBgZeURL/k=",
+      "url": "_framework/AppProject.Web.59qf3x02vs.pdb"
     },
     {
-      "hash": "sha256-JKjUepTJdscJS8tvwLwsuty5t5pOCUyAqwsmdMhi1Is=",
-      "url": "_framework/AppProject.Web.ApiClient.Gn.gpx60muzjn.wasm"
+      "hash": "sha256-onRQ/9j3+PCJqsyqpam/1VtmY5Ng5C5QZF40vKk8LSo=",
+      "url": "_framework/AppProject.Web.ApiClient.Gn.apxf3cqch5.pdb"
     },
     {
-      "hash": "sha256-1CkM97e/cphGdjo9Gfk68PdLafihGS0MGSxHiBPVBJQ=",
-      "url": "_framework/AppProject.Web.ApiClient.Gn.suwyj7yf8t.pdb"
+      "hash": "sha256-JE508GKsOF60BsIWrLFkpneAhcY1MArgiqQmgZjJXEU=",
+      "url": "_framework/AppProject.Web.ApiClient.Gn.kex3y90vcn.wasm"
     },
     {
-      "hash": "sha256-pLYoCuw9sAu+ecfQrPOCh9a3X3Ek9XFgSvlWTxKJVM4=",
-      "url": "_framework/AppProject.Web.ApiClient.k2gkvvmcuc.pdb"
+      "hash": "sha256-Ak4ddhfflx8NdkgJ0sTbSmGByTOW4QGnHTGmgil9j2I=",
+      "url": "_framework/AppProject.Web.ApiClient.qevkuhr41q.pdb"
     },
     {
-      "hash": "sha256-rmowVCYC4/8bY2zB0/r8bWFS4Awkk4x61XwRPsWPP7I=",
-      "url": "_framework/AppProject.Web.Framework.a1wquu77go.wasm"
+      "hash": "sha256-+az3Uepf5XUWVifOt6ZPA+rHtYYjyuph7kJQRiRusEM=",
+      "url": "_framework/AppProject.Web.ApiClient.x2xu692sr4.wasm"
     },
     {
-      "hash": "sha256-pCtEsqJVMVTmbN9ETDyilc98hyFpsBEiCZf0Mso16gQ=",
-      "url": "_framework/AppProject.Web.Framework.con6j92hct.pdb"
+      "hash": "sha256-h/VPeYAqYQ8FzNDmdqc4Faqyuv+TaJWRczzWYgGtQB8=",
+      "url": "_framework/AppProject.Web.Framework.fiv8g1f422.pdb"
     },
     {
-      "hash": "sha256-zuT6nSjaX8n+SgZzr2I8ghax5TIzhx+kIbQ0+QKKNso=",
-      "url": "_framework/AppProject.Web.General.2cc7lnz3bz.wasm"
+      "hash": "sha256-clHwvgq9MQxtxj/deLtVl//De1XK13b6nold6ycPo9Q=",
+      "url": "_framework/AppProject.Web.Framework.mv8qmzi92t.wasm"
     },
     {
-      "hash": "sha256-jgb0xjdM6pmiFfeAwLEkejHw5Uin2F+ONWkGHSIMpTk=",
-      "url": "_framework/AppProject.Web.General.ul2hy466m6.pdb"
+      "hash": "sha256-rpa0ExcPxcGBd9blNQY7SgIuVMhNzkDSSyZzHUvF9Zs=",
+      "url": "_framework/AppProject.Web.General.a6bn5rq7gk.wasm"
     },
     {
-      "hash": "sha256-dMuovCyIUXLRBzQH7NiZaGnnBKZ4fE6BMbFQUKKeP/E=",
-      "url": "_framework/AppProject.Web.Models.General.8hqachu1h9.wasm"
+      "hash": "sha256-E+Z6waxi+r7rqzvxnnX6uH/Xma38TXuAWHF1bzF+TZs=",
+      "url": "_framework/AppProject.Web.General.ptcgd2kb5a.pdb"
     },
     {
-      "hash": "sha256-ZY/IR50Y0iS5+opgd1UU479PEVrgrQcZJrzqo6cx8lw=",
-      "url": "_framework/AppProject.Web.Models.General.bse7iilkgz.pdb"
+      "hash": "sha256-jf2uVsGGfpZhLnJBFkBCZK9CH2ahvRwW9NOwYNYSuKY=",
+      "url": "_framework/AppProject.Web.Models.General.1vnjmiermt.pdb"
     },
     {
-      "hash": "sha256-Zb4AH5/OgC4BLZwlJKcXHguB5u9HnoYj7cK9DL5XiK4=",
-      "url": "_framework/AppProject.Web.Models.dqrcr3otdw.wasm"
+      "hash": "sha256-bnGjIOpcfPIoqr8BllivFjL/uBAaLYPhI8ZO6USPve4=",
+      "url": "_framework/AppProject.Web.Models.General.ybopujygqm.wasm"
     },
     {
-      "hash": "sha256-oQo/eD/orxdlQApPmXuGEBlXkEkkeZe6h4ixZtMPVi4=",
-      "url": "_framework/AppProject.Web.Models.ln9jfdll37.pdb"
+      "hash": "sha256-9q15BS4weAVE537IdyOQrkix0TkkA7PRXjvBwy7wPfk=",
+      "url": "_framework/AppProject.Web.Models.a7voqgi5la.wasm"
     },
     {
-      "hash": "sha256-RyPH/K8025oVaiOjdWRKJ7bR/v+zUCSkkYpd1iARKgM=",
-      "url": "_framework/AppProject.Web.Shared.n4iucgmpc6.wasm"
+      "hash": "sha256-Tka9ZRR27BND1ixulnzU9QodmWc8ww+0Uz/WmgJSn7k=",
+      "url": "_framework/AppProject.Web.Models.myvexbi7xr.pdb"
     },
     {
-      "hash": "sha256-tmoYQDDm1e5KqKH8zd4l2SNoWVJ2j6I4cgZXzrvgwaI=",
-      "url": "_framework/AppProject.Web.Shared.u2x9fnnrtx.pdb"
+      "hash": "sha256-XLZGKC9APtVRFGkG3xm0N4QkfzdCfyKoa8mSVPbszko=",
+      "url": "_framework/AppProject.Web.Shared.k2kvr5p61a.wasm"
     },
     {
-      "hash": "sha256-A3Sv/eflaB9sL/xMa2UCNgCU9AM19NgUNDe5uW7wCb8=",
-      "url": "_framework/AppProject.Web.bm62y9k6k4.pdb"
+      "hash": "sha256-h0tdJqSL388+KkGc8pPgull7igRnv8RC97djkq+zQG0=",
+      "url": "_framework/AppProject.Web.Shared.zx461jy0h1.pdb"
     },
     {
-      "hash": "sha256-QOCJfTT1cm5rB/zLIJkMIVzaz2SHEt3Zz88yS6dAeUg=",
-      "url": "_framework/AppProject.Web.woku03bejh.wasm"
+      "hash": "sha256-8rkADFT2F47vC+0c9ArvF1Gg0hUxYUTvOjeagIkJbyc=",
+      "url": "_framework/AppProject.Web.m66ryf76y5.wasm"
     },
     {
       "hash": "sha256-aP8WKS4T25ZYmwBxuOhGRK65QE/HGKSWYxMtXDBIYjg=",
@@ -910,7 +910,7 @@ self.assetsManifest = {
       "url": "_framework/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-FrdyXYJ0TLlk/NkMGgMYk0EFA/yCOPZzSQTWs3vq2j8=",
+      "hash": "sha256-zo4uEdXWVwro/bMuVnRrzMzIErWuuea6PFlxU9/aay4=",
       "url": "_framework/dotnet.js"
     },
     {
@@ -934,6 +934,10 @@ self.assetsManifest = {
       "url": "_framework/dotnet.runtime.nkt61nz8g3.js"
     },
     {
+      "hash": "sha256-qAOWTW2f1dhjW9ey8klYqWc9bwKeSsQVgO/0WZT6hSQ=",
+      "url": "_framework/es-ES/AppProject.Resources.resources.0qo610enl2.wasm"
+    },
+    {
       "hash": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
       "url": "_framework/icudt_CJK.tjcz0u77k5.dat"
     },
@@ -952,6 +956,10 @@ self.assetsManifest = {
     {
       "hash": "sha256-02F9/D4q+A37ooBxxI5ev/uzLJRKLEZTcbEUwcfqLSY=",
       "url": "_framework/netstandard.5a0vnluvqm.wasm"
+    },
+    {
+      "hash": "sha256-ay5CvWeBDVFa74y2DrLGWb0cym15UwB+cv3mhtvIWeo=",
+      "url": "_framework/pt-BR/AppProject.Resources.resources.bwirqbf95i.wasm"
     },
     {
       "hash": "sha256-yRJ49z3y3rHi/X6jpbhaZS6+RJBCP3/2qRNriPwlJ3c=",

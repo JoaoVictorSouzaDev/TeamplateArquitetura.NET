@@ -56,3 +56,6 @@ C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web.General\bin\Debug\net10.0\AppProject.Web.ApiClient.pdb
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web.General\bin\Debug\net10.0\AppProject.Web.Models.pdb
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web.General\obj\Debug\net10.0\AppProje.D9F9F474.Up2Date
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web.General\bin\Debug\net10.0\es-ES\AppProject.Resources.resources.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web.General\bin\Debug\net10.0\pt-BR\AppProject.Resources.resources.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web.General\obj\Debug\net10.0\AppProject.Web.General.sourcelink.json

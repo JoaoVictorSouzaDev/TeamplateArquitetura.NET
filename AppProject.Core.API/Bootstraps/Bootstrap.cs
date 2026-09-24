@@ -1,7 +1,10 @@
 using System;
 using System.Globalization;
 using System.Reflection;
+using AppProject.Core.API.Auth;
 using AppProject.Core.API.Middlewares;
+using AppProject.Core.Contracs;
+using AppProject.Core.Services;
 using AppProject.Exceptions;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
@@ -22,6 +25,10 @@ public static class Bootstrap
         {
             ConfigureValidations(options);
         });
+
+        ConfigureService(builder);
+
+        ConfigureUsers(builder);
 
         return builder;
     }
@@ -85,8 +92,43 @@ public static class Bootstrap
         };
     }
 
+    private static void ConfigureService(WebApplicationBuilder builder)
+    {
+        builder.Services.Scan(x =>
+            x.FromAssemblies(GetServiceAssemblies())
+            .AddClasses(y =>
+                y.AssignableTo<ITransientService>())
+            .AsImplementedInterfaces()
+            .WithTransientLifetime());
+
+        builder.Services.Scan(x =>
+            x.FromAssemblies(GetServiceAssemblies())
+            .AddClasses(y =>
+                y.AssignableTo<IScopedService>())
+            .AsImplementedInterfaces()
+            .WithTransientLifetime());
+
+        builder.Services.Scan(x =>
+            x.FromAssemblies(GetServiceAssemblies())
+            .AddClasses(y =>
+                y.AssignableTo<ISingletonService>())
+            .AsImplementedInterfaces()
+            .WithTransientLifetime());
+    }
+
+    private static void ConfigureUsers(WebApplicationBuilder builder)
+    {
+        builder.Services.AddScoped<IUserContext, UserContext>();
+    }
+
     private static IEnumerable<Assembly> GetControllerAssemblies() =>
     [
         Assembly.Load("AppProject.Core.Controllers.General"),
     ];
+
+    private static IEnumerable<Assembly> GetServiceAssemblies() =>
+        [
+            Assembly.Load("AppProject.Core.Services"),
+            Assembly.Load("AppProject.Core.Services.General")
+        ];
 }

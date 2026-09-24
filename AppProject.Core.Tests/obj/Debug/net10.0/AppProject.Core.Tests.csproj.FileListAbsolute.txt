@@ -196,3 +196,6 @@ C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Cor
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Tests\bin\Debug\net10.0\AppProject.Exceptions.pdb
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Tests\bin\Debug\net10.0\AppProject.Models.pdb
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Tests\bin\Debug\net10.0\AppProject.Resources.pdb
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Tests\bin\Debug\net10.0\es-ES\AppProject.Resources.resources.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Tests\bin\Debug\net10.0\pt-BR\AppProject.Resources.resources.dll
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Core.Tests\obj\Debug\net10.0\AppProject.Core.Tests.sourcelink.json

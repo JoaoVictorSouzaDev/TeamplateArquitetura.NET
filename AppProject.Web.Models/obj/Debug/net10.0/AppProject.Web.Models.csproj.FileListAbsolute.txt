@@ -16,3 +16,4 @@ C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web.Models\bin\Debug\net10.0\AppProject.Utils.pdb
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web.Models\obj\Debug\net10.0\AppProject.Web.Models.csproj.AssemblyReference.cache
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web.Models\obj\Debug\net10.0\AppProje.AC73F994.Up2Date
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web.Models\obj\Debug\net10.0\AppProject.Web.Models.sourcelink.json

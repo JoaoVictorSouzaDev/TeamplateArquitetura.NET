@@ -22,3 +22,4 @@ C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web.ApiClient.Gn\bin\Debug\net10.0\AppProject.Web.Models.pdb
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web.ApiClient.Gn\obj\Debug\net10.0\AppProject.Web.ApiClient.Gn.csproj.AssemblyReference.cache
 C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web.ApiClient.Gn\obj\Debug\net10.0\AppProje.509494A9.Up2Date
+C:\Users\saojvict\Documents\Cursos\Udemy\TeamplateArquitetura.NET\AppProject.Web.ApiClient.Gn\obj\Debug\net10.0\AppProject.Web.ApiClient.Gn.sourcelink.json
