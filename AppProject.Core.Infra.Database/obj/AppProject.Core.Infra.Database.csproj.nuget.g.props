@@ -13,6 +13,9 @@
     <SourceRoot Include="C:\Users\saojvict\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.10\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.10\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
+  </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgStyleCop_Analyzers Condition=" '$(PkgStyleCop_Analyzers)' == '' ">C:\Users\saojvict\.nuget\packages\stylecop.analyzers\1.1.118</PkgStyleCop_Analyzers>
   </PropertyGroup>
