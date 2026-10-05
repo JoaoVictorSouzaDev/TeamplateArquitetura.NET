@@ -162,6 +162,8 @@ public static class Bootstrap
 
     private static void ConfigureDatabase(WebApplicationBuilder builder)
     {
+        builder.Services.AddScoped<IDatabaseRepository, DatabaseRepository>();
+
         var connectionSringsOptions = new ConnectionSringsOptions();
         builder.Configuration.GetSection("ConnectionStrings").Bind(connectionSringsOptions);
 
