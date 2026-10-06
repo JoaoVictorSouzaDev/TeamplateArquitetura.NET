@@ -4,5 +4,17 @@
         <name>AppProject.Core.Infra.Database</name>
     </assembly>
     <members>
+        <member name="T:AppProject.Core.Infra.Database.Migrations.Initial">
+            <inheritdoc />
+        </member>
+        <member name="M:AppProject.Core.Infra.Database.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AppProject.Core.Infra.Database.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AppProject.Core.Infra.Database.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

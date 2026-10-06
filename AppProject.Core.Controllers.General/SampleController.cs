@@ -1,5 +1,6 @@
 #if DEBUG
 using AppProject.Resources;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppProject.Core.Controllers.General
@@ -18,6 +19,13 @@ namespace AppProject.Core.Controllers.General
         public IActionResult GetCultureSample()
         {
             return this.Ok(StringResource.GetStringByKey("Sample_Message_Text"));
+        }
+
+        [Authorize]
+        [HttpGet]
+        public IActionResult GetProtectedData()
+        {
+            return this.Ok("This is a protected data!");
         }
     }
 }
