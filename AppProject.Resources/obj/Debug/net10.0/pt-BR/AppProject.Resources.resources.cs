@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppProject.Resources")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute(" ")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef07a70a4722a9dadbe126045b54cbb1531edfb1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f892db463ec28caa7068ba70639cde8367c2423")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppProject.Resources")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppProject.Resources")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

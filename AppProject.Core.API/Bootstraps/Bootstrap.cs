@@ -1,7 +1,7 @@
 using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Security.Claims;
 using AppProject.Core.API.Auth;
 using AppProject.Core.API.Middlewares;
@@ -15,6 +15,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi;
 
 namespace AppProject.Core.API.Bootstraps;
 
@@ -42,6 +43,8 @@ public static class Bootstrap
 
         ConfigureAuthentication(builder);
 
+        ConfigureSwagger(builder);
+
         return builder;
     }
 
@@ -51,7 +54,27 @@ public static class Bootstrap
 
         if (app.Environment.IsDevelopment())
         {
-            app.MapOpenApi();
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1");
+
+                var auth0Options = new Auth0Options();
+                app.Configuration.GetSection("Auth0").Bind(auth0Options);
+
+                c.OAuthClientId(auth0Options.ClientId);
+                c.OAuthAppName("API - Swagger");
+                c.OAuthUsePkce();
+                c.OAuthScopeSeparator(" ");
+
+                c.OAuthScopes("openid", "profile", "email", "offline_access");
+
+                c.OAuthAdditionalQueryStringParams(new Dictionary<string, string>
+                {
+                    { "audience", auth0Options.Audience ?? string.Empty }
+                });
+            });
         }
 
         app.UseMiddleware<ExceptionMiddleware>();
@@ -221,6 +244,60 @@ public static class Bootstrap
                 ValidateLifetime = true,
                 NameClaimType = ClaimTypes.NameIdentifier
             };
+        });
+    }
+
+    private static void ConfigureSwagger(WebApplicationBuilder builder)
+    {
+        var auth0Options = new Auth0Options();
+        builder.Configuration.GetSection("Auth0").Bind(auth0Options);
+
+        var authority = auth0Options.Authority;
+
+        if (string.IsNullOrWhiteSpace(authority))
+        {
+            throw new ArgumentException("Auth0 configuration is not set properly.");
+        }
+
+        builder.Services.AddSwaggerGen(c =>
+        {
+            c.SwaggerDoc("v1", new OpenApiInfo
+            {
+                Title = "API",
+                Version = "v1"
+            });
+
+            c.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
+            {
+                Type = SecuritySchemeType.OAuth2,
+                Flows = new OpenApiOAuthFlows
+                {
+                    AuthorizationCode = new OpenApiOAuthFlow
+                    {
+                        AuthorizationUrl = new Uri($"{auth0Options.Authority}/authorize"),
+                        TokenUrl = new Uri($"{auth0Options.Authority}/oauth/token"),
+                        Scopes = new Dictionary<string, string>
+                        {
+                            { "openid", "OpenID" },
+                            { "profile", "Profile" },
+                            { "email", "Email" },
+                            { "offline_access", "Offline Access" }
+                        }
+                    }
+                },
+                In = ParameterLocation.Header,
+                Name = "Authorization",
+                Scheme = "Bearer",
+                BearerFormat = "JWT",
+                Description = "OAuth2 with Auth0"
+            });
+            c.AddSecurityRequirement(document => new OpenApiSecurityRequirement
+            {
+                [new OpenApiSecuritySchemeReference("oauth2", document)] = new List<string>
+                {
+                    "openid", "profile", "email", "offline_access"
+                }
+            });
         });
     }
 
