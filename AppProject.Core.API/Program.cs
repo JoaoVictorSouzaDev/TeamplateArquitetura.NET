@@ -8,6 +8,8 @@ var app = builder.Build();
 
 await app.InitializeDatabaseAsync();
 
+await app.CreateorUpdateSystemAdminAsync();
+
 app.UseApiPipeline();
 
 app.Run();
