@@ -1,15 +1,20 @@
 using System;
+using System.Security.Claims;
 using AppProject.Core.Contracs;
 using AppProject.Core.Infra.Database;
+using AppProject.Core.Infra.Database.Entities.Auth;
 using Microsoft.EntityFrameworkCore;
 
 namespace AppProject.Core.API.Auth;
 
 public class UserContext(
+    IHttpContextAccessor httpContextAccessor,
     ApplicationDbContext applicationDbContext)
     : IUserContext
 {
-    public async Task<UserInfo> GetCurrentUserAsync(CancellationToken cancellationToken = default)
+    private UserInfo? currentUser;
+
+    public async Task<UserInfo> GetSystemAdminUserAsync(CancellationToken cancellationToken = default)
     {
         var user = await applicationDbContext.Users.FirstOrDefaultAsync(u => u.IsSystemAdmin, cancellationToken);
 
@@ -27,8 +32,78 @@ public class UserContext(
         };
     }
 
-    public Task<UserInfo> GetSystemAdminUserAsync(CancellationToken cancellationToken = default)
+    public async Task<UserInfo> GetCurrentUserAsync(CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        if (this.currentUser != null)
+        {
+            return this.currentUser;
+        }
+
+        var systemAdminUser = await this.GetSystemAdminUserAsync(cancellationToken);
+
+        var claimsPrincipal = httpContextAccessor.HttpContext?.User;
+
+        if (claimsPrincipal?.Identity?.IsAuthenticated == true)
+        {
+            var name = claimsPrincipal.FindFirstValue("name");
+            var email = claimsPrincipal.FindFirstValue(ClaimTypes.Email) ?? claimsPrincipal.FindFirstValue("email");
+
+            if (string.IsNullOrEmpty(email))
+            {
+                throw new InvalidOperationException();
+            }
+
+            if (email == systemAdminUser.Email)
+            {
+                this.currentUser = systemAdminUser;
+                return this.currentUser;
+            }
+
+            if (string.IsNullOrEmpty(name))
+            {
+                name = email;
+            }
+
+            var user = await applicationDbContext.Users.FirstOrDefaultAsync(u => u.Email == email, cancellationToken);
+
+            if (user == null)
+            {
+                user = new TbUser()
+                {
+                    Name = name,
+                    Email = email,
+                    IsSystemAdmin = false,
+                    CreatedAt = DateTime.UtcNow,
+                    CreatedByUserId = systemAdminUser.UserId,
+                    CreatedByUserName = systemAdminUser.UserName
+                };
+
+                applicationDbContext.Users.Add(user);
+                await applicationDbContext.SaveChangesAsync();
+            }
+            else if (user.Name == name)
+            {
+                user.Name = name;
+
+                applicationDbContext.Users.Update(user);
+                await applicationDbContext.SaveChangesAsync();
+            }
+
+            this.currentUser = new UserInfo
+            {
+                UserId = user.Id,
+                UserName = user.Name,
+                Email = user.Email,
+                IsSystemAdmin = user.IsSystemAdmin
+            };
+
+            return this.currentUser;
+        }
+        else
+        {
+            // Not authenticated
+            this.currentUser = systemAdminUser;
+            return this.currentUser;
+        }
     }
 }

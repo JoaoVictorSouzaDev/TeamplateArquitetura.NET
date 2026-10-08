@@ -214,6 +214,8 @@ public static class Bootstrap
     private static void ConfigureUsers(WebApplicationBuilder builder)
     {
         builder.Services.AddScoped<IUserContext, UserContext>();
+
+        builder.Services.AddHttpContextAccessor();
     }
 
     private static void ConfigureMapper(WebApplicationBuilder builder)
@@ -322,7 +324,7 @@ public static class Bootstrap
                 {
                     AuthorizationCode = new OpenApiOAuthFlow
                     {
-                        AuthorizationUrl = new Uri($"{auth0Options.Authority}/authorize"),
+                        AuthorizationUrl = new Uri($"{auth0Options.Authority}/authorize?prompt=login"),
                         TokenUrl = new Uri($"{auth0Options.Authority}/oauth/token"),
                         Scopes = new Dictionary<string, string>
                         {
